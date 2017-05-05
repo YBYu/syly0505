@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Microsoft YaHei;
+	font-size:15px;
+	color:#333;}
+*{
+	padding:0px;
+	margin:0px;
+	}
+  ul{
+	padding:0px; 
+	margin:0px;
+	}
+.container{
+	width:700px;
+	padding:15px;
+	margin:0 auto;
+	background:#e7fafc;
+	border-radius:10px;
+	}
+.pdlr10{
+	padding:0 10px;
+	}
+.pdtb10{
+	padding:10px 0;
+	}
+.pdb20{
+	padding-bottom:20px;
+	}
+.mgb10{margin-bottom:10px;}
+.mgb20{margin-bottom:20px;}
+.clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+	}
+.panel-body{padding:10px;}
+.left{float:left;}
+.right{float:right;}
+.MainInfo_tit{
+	font-size:18px;
+	font-weight:bold;
+	color:#108812;
+	}
+.on{
+	display:inline-block;
+	padding:5px 15px;
+	border-top:1px solid #108812;
+	border-left:1px solid #108812;
+	border-right:1px solid #108812;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	}
+.ItemCon{
+	border:1px solid #108812;
+	border-top-right-radius:5px;
+	}
+.InfoTop{
+	border-bottom:1px solid #108812;
+	padding-left:20px;
+	font-size:16px;
+	}
+.MainInfo_con .ItemCon p{margin-bottom:10px;}
+.LeftCon{width:55%;}
+.RightCon{width:45%;}
+.item .column{
+	display:inline-block;
+	padding:3px;
+	background:#7DE148;
+	color:#fff;
+	margin-bottom:10px;
+	}
+.MainInfo_con .item .LeftCon p span:first-child, .MainInfo_con .item .RightCon p span:first-child{
+	display:inline-block;
+	padding:4px 5px;
+	background:#9ddee3;
+	margin-right:5px;
+	}
+.MainInfo_con .item .LeftCon p span:nth-child(2), .MainInfo_con .item .RightCon p span:nth-child(2){
+	color:#666;
+	}
+.item4 thead td{
+	padding:8px 15px;
+	background:#9ddee3;
+	text-align:center;
+	border-left:1px solid #d3d3d3;
+	border-top:1px solid #d3d3d3;
+	}
+.item4 tbody td{
+	padding:8px 15px;
+	text-align:center;
+	border-left:1px solid #d3d3d3;
+	border-bottom:1px solid #d3d3d3;
+	}
+/*景区添加信息编辑*/
+ul li{
+	list-style:none;
+	margin-bottom:10px;
+	width:50%;
+	}
+.ListForm span{
+	margin-right:5px;
+	}
+ul li span{
+	display:inline-block;
+	font-size:14px;
+	padding:3px;
+	background:#9ddee3;
+	}
+.gray{
+	color:#d3d3d3;
+	}
+.bg-blue{
+	background:#e7fafc;
+	}
+li:nth-child(4), li:nth-child(5), li:nth-child(6){
+	width:33%;
+	}
+.location{
+	width:60%;
+	}
+li:nth-child(2) .text{
+	width:75%
+	}
+	/*li:nth-child(11), li:nth-child(16){
+		margin-left:50%;
+		}
+		*/
+select{
+	padding:3px;
+	}
+input{
+	padding:3px;
+	}
+li:last-child{
+	width:100%;
+	margin-bottom:0px;
+	}

@@ -1,0 +1,79 @@
+@charset "utf-8";
+body { position: relative; overflow-x: hidden; }
+body.bg_gray { background: #f5f5f5; }
+
+/*----- 头部 ----*/
+header { width: 100%; color: #222; background: #FFDA44; height: 5rem; }
+header span { height: 5rem; display: inline-block; }
+header .h_l { width: 20%; float: left; opacity: 0.8; }
+header .h_l a { line-height: 5rem; }
+header .h_r { width: 20%; float: right; text-align: right; opacity: 0.8; }
+header .mid { width: 60%; text-align: center; font-size: 1.8rem; font-weight: lighter; display: inline-block; line-height: 5rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+header span img { height: 2.4rem; }
+
+/*----- 中心内容 ----*/
+.art01 { margin-bottom: 2rem; font-size: 1.4rem; line-height: 1.8rem; }
+.art01 h2 { margin-bottom: 0.5rem; font-size: 1.6rem; line-height: 1.8rem; border-bottom: none; color: #FD6D4B; }
+.art01 h3 { margin-bottom: 1rem; font-size: 1.5rem; line-height: 1.8rem; color: #FD6D4B; }
+.art01 p { margin-bottom: 1rem; }
+
+.art01 ul { margin-bottom: 0.5rem; font-size: 1.3rem; }
+.art01 ul li { margin-bottom: 5px; list-style: square inside; }
+
+.art01 table.tb01 { margin-bottom: 1rem; }
+.art01 table.tb01 th { padding: 0.4rem 0; font-weight: bold; }
+.art01 table.tb01 td { padding: 0.4rem 0.3rem; }
+
+.art01 figure {}
+.art01 figcaption { float: right; width: 73%; margin-top: 2rem; }
+.art01 figure img { float: left; width: 22%; }
+
+.artimg { max-width: 100%; margin: 1.5rem auto; }
+
+/*----- 政策条款 ----*/
+.sec01 { padding: 1.5rem; }
+.sec01 h1 { margin-bottom: 1rem; font-size: 1.8rem; line-height: 1.8rem; text-align: center; }
+.sec01 h2 { margin-bottom: 1rem; padding-bottom: 0.5rem; font-size: 1.6rem; line-height: 1.8rem; border-bottom: 1px #eee solid; color: #666; }
+
+/*----- 联系我们 ----*/
+.sec02 { padding: 1.5rem; }
+.sec02 h2 { margin-bottom: 1rem; padding-bottom: 0.6rem; font-size: 1.6rem; line-height: 1.8rem; border-bottom: 1px #eee solid; color: #FD6D4B; }
+
+/*----- 专家讲座 ----*/
+.sec03 { padding: 1.5rem; }
+.sec03 h1 { margin-bottom: 1rem; font-size: 1.8rem; line-height: 1.8rem; }
+.sec03 h2 { margin-bottom: 1rem; padding-bottom: 0.5rem; font-size: 1.4rem; line-height: 1.8rem; border-bottom: 1px #eee solid; color: #666; }
+
+/*----- 专家讲座底部按钮 ----*/
+footer { position: fixed; bottom: 0px; left: 0; width: 100%; height: 3.2rem; padding: 1rem 0; background-color: #fff; box-shadow: 2px -1px 3px #ddd; text-align: center; z-index: 999; }
+a.btnyellow { display: block; width: 92%; height: 3.2rem; line-height: 3.2rem; margin: 0 auto; background: #FFDA44; border-radius: 4rem; font-size: 1.6rem; text-align: center; }
+
+/*----- 意见反馈 ----*/
+.sec04 { }
+.art02 { margin-bottom: 2rem; }
+.art02 .textbox { margin-bottom: 1.5rem; padding: 1rem; background: #fff; box-shadow: 2px 1px 3px #ddd; }
+.art02 textarea { width: 100%; min-height: 8rem; border: none; border-radius: 0; color: #999; outline: none; resize: none; font-size: 1.4rem; line-height: 1.8rem; }
+.art03 { margin-bottom: 1rem; padding: 1.5rem; background: #fff; box-shadow: 1px 1px 1px #ddd; }
+
+.art03 h2 { }
+.art03 h2 b { padding-right: 1rem; font-weight: normal; color: #FD6D4B; }
+.art03 h2 span { margin-bottom: 0.5rem; font-size: 1.3rem; line-height: 1.8rem; color: #999; }
+.art03 p { margin-bottom: 0.5rem; font-size: 1.6rem; line-height: 1.8rem; color: #666; }
+.art03 .line { height: 1px; margin-top: 1rem; padding-bottom: 1rem; border-top: 1px #ddd dotted; }
+
+/*IOS safari横屏字体变大bug*/
+@media screen and (max-device-width: 320px) {
+body { -webkit-text-size-adjust: none }
+}
+
+@media screen and (max-device-width: 480px) {
+body { -webkit-text-size-adjust: none }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+body { -webkit-text-size-adjust: none }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+body { -webkit-text-size-adjust: none }
+}

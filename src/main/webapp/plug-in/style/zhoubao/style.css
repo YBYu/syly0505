@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Microsoft YaHei;
+	font-size:15px;
+	color:#333;}
+*{
+	padding:0px;
+	margin:0px;
+	}
+a{
+	text-decoration:none;
+	color:#0F0FFF;
+	}
+ul{
+	padding:0px; 
+	margin:0px;
+	}
+.container{
+	width:660px;
+	padding:15px;
+	margin:0 auto;
+	background:#e7fafc;
+	border-radius:10px;
+	}
+.fontSize12{
+	font-size:12px;
+	}
+.pdlr10{
+	padding:0 10px;
+	}
+.pdtb10{
+	padding:10px 0;
+	}
+.pdb20{
+	padding-bottom:20px;
+	}
+.mgb5{margin-bottom:5px;}
+.mgb10{margin-bottom:10px;}
+.mgb20{margin-bottom:20px;}
+.clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+	}
+.red{
+	color:#F00;
+	}
+.black{
+	color:#000;
+	}
+.panel-body{padding:10px;}
+.left{float:left;}
+.right{float:right;}
+.MainInfo_tit{
+	font-size:18px;
+	font-weight:bold;
+	color:#108812;
+	}
+.on{
+	color:#218D0E;
+	font-weight:bold;
+	display:inline-block;
+	padding:5px 15px;
+	border-top:1px solid #108812;
+	border-left:1px solid #108812;
+	border-right:1px solid #108812;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	}
+.ItemCon{
+	border:1px solid #108812;
+	border-top-right-radius:5px;
+	}
+.border-green{
+	border:1px solid #108812;
+	border-top-right-radius:5px;
+	}
+.InfoTop{
+	border-bottom:1px solid #108812;
+	padding-left:20px;
+	font-size:16px;
+	}
+.MainInfo_con .ItemCon p{margin-bottom:10px; font-size:14px;}
+.LeftCon{width:55%;}
+.RightCon{width:45%;}
+.item .column{
+	display:inline-block;
+	padding:3px;
+	background:#7DE148;
+	color:#fff;
+	margin-bottom:10px;
+	}
+.MainInfo_con .item .LeftCon p span:first-child, .MainInfo_con .item .RightCon p span:first-child{
+	display:inline-block;
+	padding:4px 5px;
+	background:#9ddee3;
+	margin-right:5px;
+	}
+.MainInfo_con .item .LeftCon p span:nth-child(2), .MainInfo_con .item .RightCon p span:nth-child(2){
+	color:#666;
+	}
+.item4 tbody td{
+	padding:8px 15px;
+	text-align:center;
+	border-left:1px solid #d3d3d3;
+	border-bottom:1px solid #d3d3d3;
+	}
+/*景区添加信息编辑*/
+ul li{
+	list-style:none;
+	margin-bottom:10px;
+	width:50%;
+	}
+.ListForm span{
+	margin-right:5px;
+	}
+ul li span{
+	display:inline-block;
+	font-size:14px;
+	padding:3px;
+	background:#9ddee3;
+	}
+.gray{
+	color:#999;
+	}
+.bg-blue{
+	background:#e7fafc;
+	}
+li:nth-child(4), li:nth-child(5), li:nth-child(6){
+	width:33%;
+	}
+.location{
+	width:60%;
+	}
+li:nth-child(2) .text{
+	width:75%
+	}
+select{
+	padding:3px;
+	}
+input{
+	padding:3px;
+	}
+li:last-child{
+	width:100%;
+	margin-bottom:0px;
+	}
+/*月报数据上报*/
+.ItemCon td span{
+	background:#9ddee3;
+	padding:2px 0;
+	font-weight:800;
+	}
+.ItemCon td{
+	padding-bottom:10px;
+	width:50%;
+	}
+.wtable td{
+	width:25%;
+	padding:8px 0;
+	text-align:center;
+	border-left:1px solid #d3d3d3;
+	border-bottom:1px solid #d3d3d3;
+	}
+.wtable1 td:first-child{
+	width:10%;
+	vertical-align:top;
+	}
+.wtable1 td:last-child{
+	width:90%;
+	}
+.addtext{
+	background:#e7fafc;
+	padding:0px;
+	font-weight:600;
+	}
+/*旅行社基本信息*/
+.tour table td{
+	border-left:1px solid #BDBDFF;
+	border-bottom:2px solid #BDBDFF;
+	padding:5px 0;
+	}
+.tour table tr td:first-child{
+	background:#9ddee3;
+	text-align:right;
+	}
+.tour table tr td:nth-child(3){
+	background:#9ddee3;
+	text-align:right;
+	}
+table lable{
+	display:inline-block;
+	font-size:14px;
+	}
+.tour table lable{
+	width:100%;
+	height:25px;
+	line-height:25px;
+	}
+/*财务年报未报*/
+.tour-cwnb table td, .tour-cwnbyb td{
+	border-left:1px solid #BDBDFF;
+	border-bottom:2px solid #BDBDFF;
+	padding:5px 0;
+	}
+.tour-cwnb table tr td:first-child{
+	background:#9ddee3;
+	text-align:right;
+	}
+.tour-cwnb table tr td:nth-child(4){
+	background:#9ddee3;
+	text-align:right;
+	}
+.tour-cwnb table td .inputSize{
+	width:80%;
+	}
+.btn{
+	padding:5px 10px;
+	cursor:pointer;
+	border:none;
+	}
+.tour-cwnb .btn{
+	background:#FB6A24;
+	border-radius:5px;
+	color:#fff;
+	}
+/*财务年报已报*/
+.tour-cwnbyb tr td:first-child{
+	background:#9ddee3;
+	text-align:right;
+	}
+.tour-cwnbyb tr td:nth-child(3){
+	background:#9ddee3;
+	text-align:right;
+	}
+.number, .mUnit{
+	display:inline-block;
+	font-size:14px;
+	}
+.number{
+	width:65%;
+	text-align:right;
+	overflow:hidden;
+	}
+.mUnit{
+	width:30%;
+	text-align:left;
+	}
